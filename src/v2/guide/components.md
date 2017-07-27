@@ -388,7 +388,7 @@ prop 是单向绑定的：当父组件的属性变化时，将传导给子组件
 Vue.component('example', {
   props: {
     // 基础类型检测 (`null` 意思是任何类型都可以)
-    propA: Number,
+    propA: null,
     // 多种类型
     propB: [String, Number],
     // 必传且是字符串
